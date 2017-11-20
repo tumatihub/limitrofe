@@ -2708,6 +2708,11 @@ return
                   <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\hLivro.png</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="6" Width="17" Height="61" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\hTV.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
         </SubFolders>
