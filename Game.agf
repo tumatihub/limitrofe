@@ -7,7 +7,7 @@
       <UniqueID>6496125</UniqueID>
       <GUIDAsString>{4ad9d3d7-fe4e-4a54-8325-15ebce58acf5}</GUIDAsString>
       <ColorDepth>TrueColor</ColorDepth>
-      <CustomResolution>320,200</CustomResolution>
+      <CustomResolution>640,480</CustomResolution>
       <GraphicsDriver>D3D9</GraphicsDriver>
       <CompressSprites>False</CompressSprites>
       <SaveScreenshots>False</SaveScreenshots>
@@ -56,7 +56,7 @@
       <SpeechPortraitSide>Left</SpeechPortraitSide>
       <TextWindowGUI>0</TextWindowGUI>
       <AlwaysDisplayTextAsSpeech>False</AlwaysDisplayTextAsSpeech>
-      <FontsForHiRes>False</FontsForHiRes>
+      <FontsForHiRes>True</FontsForHiRes>
       <AntiAliasFonts>False</AntiAliasFonts>
       <ThoughtGUI>0</ThoughtGUI>
       <BackwardsText>False</BackwardsText>
@@ -648,8 +648,8 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>13</Height>
-              <Width>320</Width>
+              <Height>31</Height>
+              <Width>640</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
@@ -668,8 +668,8 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>27</Height>
-              <Width>320</Width>
+              <Height>64</Height>
+              <Width>640</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
@@ -696,9 +696,9 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>2044</Image>
                 <Text />
-                <Height>27</Height>
+                <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
+                <Width>64</Width>
                 <Left>0</Left>
                 <Top>0</Top>
                 <ZOrder>0</ZOrder>
@@ -717,10 +717,10 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>2045</Image>
                 <Text />
-                <Height>27</Height>
+                <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>32</Left>
+                <Width>64</Width>
+                <Left>64</Left>
                 <Top>0</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
@@ -738,10 +738,10 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>2046</Image>
                 <Text />
-                <Height>27</Height>
+                <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>64</Left>
+                <Width>64</Width>
+                <Left>128</Left>
                 <Top>0</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
@@ -759,10 +759,10 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>2047</Image>
                 <Text />
-                <Height>27</Height>
+                <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>96</Left>
+                <Width>64</Width>
+                <Left>192</Left>
                 <Top>0</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
@@ -780,10 +780,10 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>2048</Image>
                 <Text />
-                <Height>27</Height>
+                <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>128</Left>
+                <Width>64</Width>
+                <Left>256</Left>
                 <Top>0</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
@@ -801,10 +801,10 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>2049</Image>
                 <Text>(INVSHR)</Text>
-                <Height>27</Height>
+                <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>160</Left>
+                <Width>64</Width>
+                <Left>320</Left>
                 <Top>0</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
@@ -822,10 +822,10 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>2050</Image>
                 <Text />
-                <Height>27</Height>
+                <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>192</Left>
+                <Width>64</Width>
+                <Left>384</Left>
                 <Top>0</Top>
                 <ZOrder>6</ZOrder>
                 <ID>6</ID>
@@ -843,10 +843,10 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>2051</Image>
                 <Text />
-                <Height>27</Height>
+                <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>224</Left>
+                <Width>64</Width>
+                <Left>448</Left>
                 <Top>0</Top>
                 <ZOrder>7</ZOrder>
                 <ID>7</ID>
@@ -864,10 +864,10 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>2052</Image>
                 <Text />
-                <Height>27</Height>
+                <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>256</Left>
+                <Width>64</Width>
+                <Left>512</Left>
                 <Top>0</Top>
                 <ZOrder>8</ZOrder>
                 <ID>8</ID>
@@ -885,10 +885,10 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>2053</Image>
                 <Text />
-                <Height>27</Height>
+                <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>288</Left>
+                <Width>64</Width>
+                <Left>576</Left>
                 <Top>0</Top>
                 <ZOrder>9</ZOrder>
                 <ID>9</ID>
@@ -899,10 +899,10 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>130</Height>
-              <Width>220</Width>
-              <Left>50</Left>
-              <Top>35</Top>
+              <Height>312</Height>
+              <Width>440</Width>
+              <Left>100</Left>
+              <Top>84</Top>
               <Clickable>True</Clickable>
               <Visibility>PopupModal</Visibility>
               <PopupYPos>0</PopupYPos>
@@ -919,11 +919,11 @@
                 <ItemWidth>40</ItemWidth>
                 <ItemHeight>22</ItemHeight>
                 <CharacterID>-1</CharacterID>
-                <Height>89</Height>
+                <Height>213</Height>
                 <Locked>False</Locked>
-                <Width>190</Width>
-                <Left>5</Left>
-                <Top>5</Top>
+                <Width>380</Width>
+                <Left>10</Left>
+                <Top>12</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>invCustomInv</Name>
@@ -940,11 +940,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>2042</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>27</Height>
+                <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>45</Left>
-                <Top>100</Top>
+                <Width>64</Width>
+                <Left>90</Left>
+                <Top>240</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnInvSelect</Name>
@@ -961,11 +961,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>2041</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>27</Height>
+                <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>5</Left>
-                <Top>100</Top>
+                <Width>64</Width>
+                <Left>10</Left>
+                <Top>240</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnInvLook</Name>
@@ -982,11 +982,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>2043</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>27</Height>
+                <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>85</Left>
-                <Top>100</Top>
+                <Width>64</Width>
+                <Left>170</Left>
+                <Top>240</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>btnInvOK</Name>
@@ -1003,11 +1003,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>1</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>20</Height>
+                <Height>48</Height>
                 <Locked>False</Locked>
-                <Width>20</Width>
-                <Left>198</Left>
-                <Top>55</Top>
+                <Width>40</Width>
+                <Left>396</Left>
+                <Top>132</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>btnInvDown</Name>
@@ -1024,11 +1024,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>4</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>20</Height>
+                <Height>48</Height>
                 <Locked>False</Locked>
-                <Width>20</Width>
-                <Left>198</Left>
-                <Top>32</Top>
+                <Width>40</Width>
+                <Left>396</Left>
+                <Top>76</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
                 <Name>btnInvUp</Name>
@@ -1038,8 +1038,8 @@
           <GUIMain>
             <NormalGUI>
               <OnClick>gControl_OnClick</OnClick>
-              <Height>154</Height>
-              <Width>188</Width>
+              <Height>369</Height>
+              <Width>376</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
@@ -1066,11 +1066,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>RESUME</Text>
-                <Height>18</Height>
+                <Height>43</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>4</Left>
-                <Top>110</Top>
+                <Width>140</Width>
+                <Left>8</Left>
+                <Top>264</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>btnResume</Name>
@@ -1087,11 +1087,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text xml:space="preserve">SAVE GAME</Text>
-                <Height>18</Height>
+                <Height>43</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>4</Left>
-                <Top>5</Top>
+                <Width>140</Width>
+                <Left>8</Left>
+                <Top>12</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnSave</Name>
@@ -1108,11 +1108,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>ABOUT</Text>
-                <Height>18</Height>
+                <Height>43</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>4</Left>
-                <Top>89</Top>
+                <Width>140</Width>
+                <Left>8</Left>
+                <Top>213</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnAbout</Name>
@@ -1129,11 +1129,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text xml:space="preserve">QUIT GAME</Text>
-                <Height>18</Height>
+                <Height>43</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>4</Left>
-                <Top>68</Top>
+                <Width>140</Width>
+                <Left>8</Left>
+                <Top>163</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>btnQuit</Name>
@@ -1146,11 +1146,11 @@
                 <MinValue>0</MinValue>
                 <MaxValue>100</MaxValue>
                 <Value>100</Value>
-                <Height>10</Height>
+                <Height>24</Height>
                 <Locked>False</Locked>
-                <Width>100</Width>
-                <Left>82</Left>
-                <Top>24</Top>
+                <Width>200</Width>
+                <Left>164</Left>
+                <Top>57</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>sldAudio</Name>
@@ -1163,11 +1163,11 @@
                 <MinValue>0</MinValue>
                 <MaxValue>255</MaxValue>
                 <Value>255</Value>
-                <Height>10</Height>
+                <Height>24</Height>
                 <Locked>False</Locked>
-                <Width>100</Width>
-                <Left>82</Left>
-                <Top>53</Top>
+                <Width>200</Width>
+                <Left>164</Left>
+                <Top>127</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
                 <Name>sldVoice</Name>
@@ -1180,11 +1180,11 @@
                 <MinValue>0</MinValue>
                 <MaxValue>200</MaxValue>
                 <Value>100</Value>
-                <Height>10</Height>
+                <Height>24</Height>
                 <Locked>False</Locked>
-                <Width>100</Width>
-                <Left>82</Left>
-                <Top>110</Top>
+                <Width>200</Width>
+                <Left>164</Left>
+                <Top>264</Top>
                 <ZOrder>6</ZOrder>
                 <ID>6</ID>
                 <Name>sldGamma</Name>
@@ -1201,11 +1201,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>Default</Text>
-                <Height>18</Height>
+                <Height>43</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>4</Left>
-                <Top>131</Top>
+                <Width>140</Width>
+                <Left>8</Left>
+                <Top>314</Top>
                 <ZOrder>7</ZOrder>
                 <ID>7</ID>
                 <Name>btnDefault</Name>
@@ -1222,11 +1222,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text xml:space="preserve">LOAD GAME</Text>
-                <Height>18</Height>
+                <Height>43</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>4</Left>
-                <Top>26</Top>
+                <Width>140</Width>
+                <Left>8</Left>
+                <Top>62</Top>
                 <ZOrder>8</ZOrder>
                 <ID>8</ID>
                 <Name>btnLoad</Name>
@@ -1236,11 +1236,11 @@
                 <TextColor>15</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">Audio Volume</Text>
-                <Height>10</Height>
+                <Height>24</Height>
                 <Locked>False</Locked>
-                <Width>97</Width>
-                <Left>84</Left>
-                <Top>12</Top>
+                <Width>194</Width>
+                <Left>168</Left>
+                <Top>28</Top>
                 <ZOrder>9</ZOrder>
                 <ID>9</ID>
                 <Name>Label1</Name>
@@ -1250,11 +1250,11 @@
                 <TextColor>15</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">Voice Volume</Text>
-                <Height>10</Height>
+                <Height>24</Height>
                 <Locked>False</Locked>
-                <Width>101</Width>
-                <Left>81</Left>
-                <Top>42</Top>
+                <Width>202</Width>
+                <Left>162</Left>
+                <Top>100</Top>
                 <ZOrder>10</ZOrder>
                 <ID>10</ID>
                 <Name>lblVoice</Name>
@@ -1264,11 +1264,11 @@
                 <TextColor>15</TextColor>
                 <Font>0</Font>
                 <Text>Gamma</Text>
-                <Height>13</Height>
+                <Height>31</Height>
                 <Locked>False</Locked>
-                <Width>47</Width>
-                <Left>108</Left>
-                <Top>99</Top>
+                <Width>94</Width>
+                <Left>216</Left>
+                <Top>237</Top>
                 <ZOrder>11</ZOrder>
                 <ID>11</ID>
                 <Name>lblGamma</Name>
@@ -1285,11 +1285,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text xml:space="preserve">Text only</Text>
-                <Height>18</Height>
+                <Height>43</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>97</Left>
-                <Top>72</Top>
+                <Width>140</Width>
+                <Left>194</Left>
+                <Top>172</Top>
                 <ZOrder>12</ZOrder>
                 <ID>12</ID>
                 <Name>btnVoice</Name>
@@ -1302,11 +1302,11 @@
                 <MinValue>10</MinValue>
                 <MaxValue>100</MaxValue>
                 <Value>40</Value>
-                <Height>10</Height>
+                <Height>24</Height>
                 <Locked>False</Locked>
-                <Width>100</Width>
-                <Left>82</Left>
-                <Top>136</Top>
+                <Width>200</Width>
+                <Left>164</Left>
+                <Top>326</Top>
                 <ZOrder>13</ZOrder>
                 <ID>13</ID>
                 <Name>sldSpeed</Name>
@@ -1316,11 +1316,11 @@
                 <TextColor>15</TextColor>
                 <Font>0</Font>
                 <Text>Speed</Text>
-                <Height>10</Height>
+                <Height>24</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>121</Left>
-                <Top>123</Top>
+                <Width>64</Width>
+                <Left>242</Left>
+                <Top>295</Top>
                 <ZOrder>14</ZOrder>
                 <ID>14</ID>
                 <Name>Label2</Name>
@@ -1337,11 +1337,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>RESTART</Text>
-                <Height>18</Height>
+                <Height>43</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>4</Left>
-                <Top>47</Top>
+                <Width>140</Width>
+                <Left>8</Left>
+                <Top>112</Top>
                 <ZOrder>15</ZOrder>
                 <ID>15</ID>
                 <Name>btnRestart</Name>
@@ -1351,8 +1351,8 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>53</Height>
-              <Width>105</Width>
+              <Height>127</Height>
+              <Width>210</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
@@ -1372,11 +1372,11 @@
                 <TextColor>0</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">Are you sure you want to restart?</Text>
-                <Height>22</Height>
+                <Height>52</Height>
                 <Locked>False</Locked>
-                <Width>98</Width>
-                <Left>4</Left>
-                <Top>4</Top>
+                <Width>196</Width>
+                <Left>8</Left>
+                <Top>9</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Label4</Name>
@@ -1393,11 +1393,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>Yes</Text>
-                <Height>18</Height>
+                <Height>43</Height>
                 <Locked>False</Locked>
-                <Width>37</Width>
-                <Left>6</Left>
-                <Top>29</Top>
+                <Width>74</Width>
+                <Left>12</Left>
+                <Top>69</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnRestartYes</Name>
@@ -1414,11 +1414,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>No</Text>
-                <Height>18</Height>
+                <Height>43</Height>
                 <Locked>False</Locked>
-                <Width>37</Width>
-                <Left>55</Left>
-                <Top>29</Top>
+                <Width>74</Width>
+                <Left>110</Left>
+                <Top>69</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnRestartNo</Name>
@@ -1428,10 +1428,10 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>150</Height>
-              <Width>250</Width>
-              <Left>35</Left>
-              <Top>25</Top>
+              <Height>360</Height>
+              <Width>500</Width>
+              <Left>70</Left>
+              <Top>60</Top>
               <Clickable>True</Clickable>
               <Visibility>PopupModal</Visibility>
               <PopupYPos>0</PopupYPos>
@@ -1449,11 +1449,11 @@
                 <TextColor>0</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">Please choose the name to save this game as:</Text>
-                <Height>20</Height>
+                <Height>48</Height>
                 <Locked>False</Locked>
-                <Width>153</Width>
-                <Left>20</Left>
-                <Top>7</Top>
+                <Width>306</Width>
+                <Left>40</Left>
+                <Top>16</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Label5</Name>
@@ -1464,11 +1464,11 @@
                 <Font>0</Font>
                 <ShowBorder>True</ShowBorder>
                 <Text />
-                <Height>13</Height>
+                <Height>31</Height>
                 <Locked>False</Locked>
-                <Width>149</Width>
-                <Left>20</Left>
-                <Top>29</Top>
+                <Width>298</Width>
+                <Left>40</Left>
+                <Top>69</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>txtNewSaveName</Name>
@@ -1485,11 +1485,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>Save</Text>
-                <Height>13</Height>
+                <Height>31</Height>
                 <Locked>False</Locked>
-                <Width>56</Width>
-                <Left>182</Left>
-                <Top>29</Top>
+                <Width>112</Width>
+                <Left>364</Left>
+                <Top>69</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnSaveGame</Name>
@@ -1506,11 +1506,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>Cancel</Text>
-                <Height>13</Height>
+                <Height>31</Height>
                 <Locked>False</Locked>
-                <Width>56</Width>
-                <Left>182</Left>
-                <Top>65</Top>
+                <Width>112</Width>
+                <Left>364</Left>
+                <Top>156</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>btnCancelSave</Name>
@@ -1525,11 +1525,11 @@
                 <SelectedBackgroundColor>16</SelectedBackgroundColor>
                 <Font>0</Font>
                 <Translated>False</Translated>
-                <Height>96</Height>
+                <Height>230</Height>
                 <Locked>False</Locked>
-                <Width>148</Width>
-                <Left>20</Left>
-                <Top>45</Top>
+                <Width>296</Width>
+                <Left>40</Left>
+                <Top>108</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>lstSaveGamesList</Name>
@@ -1546,11 +1546,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>Delete</Text>
-                <Height>13</Height>
+                <Height>31</Height>
                 <Locked>False</Locked>
-                <Width>56</Width>
-                <Left>182</Left>
-                <Top>47</Top>
+                <Width>112</Width>
+                <Left>364</Left>
+                <Top>112</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
                 <Name>btnDeleteSave</Name>
@@ -1560,10 +1560,10 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>150</Height>
-              <Width>250</Width>
-              <Left>35</Left>
-              <Top>25</Top>
+              <Height>360</Height>
+              <Width>500</Width>
+              <Left>70</Left>
+              <Top>60</Top>
               <Clickable>True</Clickable>
               <Visibility>PopupModal</Visibility>
               <PopupYPos>0</PopupYPos>
@@ -1581,11 +1581,11 @@
                 <TextColor>0</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">Please choose the game that you want to restore:</Text>
-                <Height>20</Height>
+                <Height>48</Height>
                 <Locked>False</Locked>
-                <Width>153</Width>
-                <Left>20</Left>
-                <Top>7</Top>
+                <Width>306</Width>
+                <Left>40</Left>
+                <Top>16</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Label52</Name>
@@ -1602,11 +1602,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>Restore</Text>
-                <Height>13</Height>
+                <Height>31</Height>
                 <Locked>False</Locked>
-                <Width>56</Width>
-                <Left>182</Left>
-                <Top>29</Top>
+                <Width>112</Width>
+                <Left>364</Left>
+                <Top>69</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnRestoreGame</Name>
@@ -1623,11 +1623,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>Cancel</Text>
-                <Height>13</Height>
+                <Height>31</Height>
                 <Locked>False</Locked>
-                <Width>56</Width>
-                <Left>182</Left>
-                <Top>46</Top>
+                <Width>112</Width>
+                <Left>364</Left>
+                <Top>110</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnCancelRestore</Name>
@@ -1642,11 +1642,11 @@
                 <SelectedBackgroundColor>16</SelectedBackgroundColor>
                 <Font>0</Font>
                 <Translated>False</Translated>
-                <Height>114</Height>
+                <Height>273</Height>
                 <Locked>False</Locked>
-                <Width>153</Width>
-                <Left>20</Left>
-                <Top>30</Top>
+                <Width>306</Width>
+                <Left>40</Left>
+                <Top>72</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>lstRestoreGamesList</Name>
@@ -1957,10 +1957,10 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
-            <StartX>190</StartX>
-            <StartY>190</StartY>
+            <StartX>300</StartX>
+            <StartY>260</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>9</MovementSpeed>
+            <MovementSpeed>8</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>6</AnimationDelay>
@@ -2213,6 +2213,30 @@ return
         <ID>2</ID>
         <PointSize>0</PointSize>
         <Name>SpeechOutline</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>None</OutlineStyle>
+        <SourceFilename />
+      </Font>
+      <Font>
+        <ID>3</ID>
+        <PointSize>0</PointSize>
+        <Name>fNormal</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>None</OutlineStyle>
+        <SourceFilename />
+      </Font>
+      <Font>
+        <ID>4</ID>
+        <PointSize>0</PointSize>
+        <Name>fSpeech</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>None</OutlineStyle>
+        <SourceFilename />
+      </Font>
+      <Font>
+        <ID>5</ID>
+        <PointSize>0</PointSize>
+        <Name>fSpeechOutline</Name>
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
         <SourceFilename />
@@ -2523,6 +2547,11 @@ return
           <Type>int</Type>
           <DefaultValue>8</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>EMOJI_SURPRISE</Name>
+          <Type>int</Type>
+          <DefaultValue>118</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -2574,211 +2603,211 @@ return
           <SpriteFolder Name="Chars">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="18" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="19" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="20" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="21" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="22" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="23" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="24" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="25" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="26" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="27" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="28" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="29" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="30" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="31" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="32" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="33" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="34" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="35" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="36" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="37" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="38" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="39" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="40" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="41" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="42" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="43" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="44" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="45" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="46" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="47" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="48" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="49" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="50" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="51" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="52" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="53" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="54" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="55" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="56" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="57" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="58" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="59" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="60" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="61" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="62" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="63" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="64" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="65" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="66" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="67" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="68" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="69" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="70" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="71" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="72" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="73" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="74" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="75" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="76" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="77" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="78" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="79" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="80" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="81" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="82" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="83" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="84" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="85" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="86" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="87" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="88" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="89" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="90" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="91" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="92" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="93" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="94" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="95" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="96" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="97" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="98" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="99" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="100" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="101" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="102" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="103" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="104" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="105" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="106" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="107" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="108" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="109" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="110" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="111" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="112" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="113" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="125" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="126" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="127" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="128" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="129" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="130" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="131" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="132" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="133" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="134" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="135" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="136" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="137" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="138" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="139" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="140" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="141" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="142" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="143" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="144" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="145" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="146" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="147" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="148" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="149" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="150" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="151" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="152" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="153" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="154" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="155" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="156" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="157" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="158" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="159" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="160" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="161" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="162" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="163" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="164" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="165" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="166" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="167" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="168" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="169" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="170" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="171" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="172" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="173" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="174" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="175" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="176" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="177" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="178" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="179" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="180" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="181" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="182" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="183" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="184" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="185" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="186" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="187" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="188" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="189" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="190" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="191" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="192" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="193" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="194" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="195" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="196" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="197" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="198" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="199" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="200" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="201" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="202" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="203" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="204" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="205" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="206" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="207" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="208" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="209" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="210" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="211" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="212" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="213" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="214" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="215" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="216" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="217" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="218" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="219" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
-              <Sprite Slot="220" Width="48" Height="48" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
+              <Sprite Slot="125" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="126" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="127" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="128" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="129" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="130" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="131" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="132" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="133" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="134" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="135" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="136" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="137" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="138" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="139" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="140" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="141" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="142" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="143" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="144" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="145" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="146" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="147" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="148" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="149" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="150" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="151" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="152" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="153" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="154" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="155" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="156" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="157" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="158" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="159" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="160" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="161" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="162" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="163" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="164" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="165" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="166" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="167" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="168" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="169" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="170" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="171" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="172" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="173" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="174" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="175" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="176" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="177" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="178" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="179" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="180" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="181" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="182" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="183" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="184" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="185" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="186" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="187" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="188" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="189" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="190" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="191" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="192" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="193" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="194" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="195" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="196" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="197" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="198" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="199" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="200" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="201" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="202" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="203" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="204" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="205" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="206" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="207" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="208" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="209" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="210" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="211" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="212" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="213" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="214" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="215" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="216" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="217" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="218" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="219" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="220" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="18" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="19" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="20" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="21" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="22" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="23" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="24" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="25" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="26" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="27" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="28" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="29" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="30" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="31" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="32" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="33" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="34" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="35" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="36" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="37" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="38" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="39" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="40" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="41" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="42" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="43" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="44" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="45" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="46" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="47" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="48" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="49" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="50" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="51" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="52" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="53" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="54" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="55" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="56" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="57" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="58" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="59" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="60" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="61" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="62" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="63" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="64" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="65" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="66" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="67" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="68" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="69" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="70" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="71" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="72" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="73" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="74" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="75" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="76" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="77" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="78" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="79" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="80" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="81" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="82" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="83" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="84" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="85" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="86" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="87" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="88" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="89" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="90" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="91" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="92" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="93" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="94" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="95" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="96" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="97" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="98" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="99" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="100" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="101" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="102" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="103" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="104" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="105" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="106" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="107" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="108" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="109" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="110" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="111" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="112" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="113" Width="48" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="hotspots">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="221" Width="26" Height="19" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+              <Sprite Slot="221" Width="26" Height="19" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\hLivro.png</FileName>
+                  <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\hLivro.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="6" Width="17" Height="61" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+              <Sprite Slot="6" Width="17" Height="61" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\hTV.png</FileName>
+                  <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\hTV.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
