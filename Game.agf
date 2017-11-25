@@ -2552,6 +2552,11 @@ return
           <Type>int</Type>
           <DefaultValue>118</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>EMOJI_SURPRISE2</Name>
+          <Type>int</Type>
+          <DefaultValue>248</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -2896,6 +2901,18 @@ return
               <Sprite Slot="280" Width="56" Height="56" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
               <Sprite Slot="281" Width="56" Height="56" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
               <Sprite Slot="282" Width="56" Height="56" ColorDepth="32" Resolution="LowRes" AlphaChannel="True" />
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="objects">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="283" Width="25" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="284" Width="25" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="285" Width="25" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="286" Width="25" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="287" Width="25" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="288" Width="25" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="289" Width="25" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
             </Sprites>
           </SpriteFolder>
         </SubFolders>
@@ -4072,6 +4089,72 @@ return
                       <ViewFrame>
                         <ID>80</ID>
                         <Image>282</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+            </Views>
+          </ViewFolder>
+          <ViewFolder Name="objects">
+            <SubFolders />
+            <Views>
+              <View>
+                <ID>6</ID>
+                <Name>copoCaindo</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>283</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>284</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>285</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>286</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>287</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>5</ID>
+                        <Image>288</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>6</ID>
+                        <Image>289</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
