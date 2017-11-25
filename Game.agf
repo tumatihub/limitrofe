@@ -43,7 +43,7 @@
       <LeftToRightPrecedence>True</LeftToRightPrecedence>
       <PlaySoundOnScore>0</PlaySoundOnScore>
       <CrossfadeMusic>No</CrossfadeMusic>
-      <DialogOptionsGUI>0</DialogOptionsGUI>
+      <DialogOptionsGUI>7</DialogOptionsGUI>
       <DialogOptionsGap>0</DialogOptionsGap>
       <DialogOptionsBullet>0</DialogOptionsBullet>
       <SkipSpeech>MouseOrKeyboardOrTimer</SkipSpeech>
@@ -888,7 +888,7 @@
                 <Height>64</Height>
                 <Locked>False</Locked>
                 <Width>64</Width>
-                <Left>576</Left>
+                <Left>578</Left>
                 <Top>0</Top>
                 <ZOrder>9</ZOrder>
                 <ID>9</ID>
@@ -1653,6 +1653,26 @@
               </GUIListBox>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>100</Height>
+              <Width>640</Width>
+              <Left>0</Left>
+              <Top>380</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>2</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>7</ID>
+              <Name>gDialog</Name>
+            </NormalGUI>
+            <Controls />
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -2039,26 +2059,29 @@
             <Dialogs>
               <Dialog>
                 <ID>0</ID>
-                <Name>dVideoGame</Name>
+                <Name>dCopoCai</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
+dolores: "Porque você é sempre tão desastrada?!"
 return
 @1
-return
+dolores: "Ah, claro.. pra você é só um copo.."
+stop
 @2
-return
+dolores: "Porquê você nunca presta atenção em nada.."
+stop
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
                     <ID>1</ID>
-                    <Text xml:space="preserve">Como foi seu dia?</Text>
+                    <Text xml:space="preserve">Mas foi só um copo..</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
-                    <Text xml:space="preserve">Quer jogar um pouco?</Text>
+                    <Text xml:space="preserve">Porque você está tão irritada?</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -2556,6 +2579,11 @@ return
           <Name>EMOJI_SURPRISE2</Name>
           <Type>int</Type>
           <DefaultValue>248</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>copoCaiu</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
