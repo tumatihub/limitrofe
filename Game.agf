@@ -2219,19 +2219,19 @@ return
       </Font>
       <Font>
         <ID>3</ID>
-        <PointSize>0</PointSize>
+        <PointSize>11</PointSize>
         <Name>fNormal</Name>
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
-        <SourceFilename />
+        <SourceFilename>C:\Users\joaoguilherme.dias\Documents\assets\fonts\Pixellari.ttf</SourceFilename>
       </Font>
       <Font>
         <ID>4</ID>
-        <PointSize>0</PointSize>
+        <PointSize>11</PointSize>
         <Name>fSpeech</Name>
-        <OutlineFont>0</OutlineFont>
-        <OutlineStyle>None</OutlineStyle>
-        <SourceFilename />
+        <OutlineFont>2</OutlineFont>
+        <OutlineStyle>Automatic</OutlineStyle>
+        <SourceFilename>C:\Users\joaoguilherme.dias\Documents\assets\fonts\Pixellari.ttf</SourceFilename>
       </Font>
       <Font>
         <ID>5</ID>
@@ -4176,6 +4176,30 @@ See KeyboardMovement.txt for details.
                 <Author>Rui "Brisby" Pires / strazer</Author>
                 <Version>1.02</Version>
                 <Key>160503183</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>Init.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1967191719</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>Init.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1967191719</Key>
                 <IsHeader>False</IsHeader>
               </Script>
             </ScriptAndHeader_Script>
