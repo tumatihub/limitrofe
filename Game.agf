@@ -656,10 +656,10 @@
               <Visibility>Normal</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
-              <BorderColor>1</BorderColor>
+              <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>300</BackgroundImage>
               <ID>0</ID>
               <Name>gStatusline</Name>
             </NormalGUI>
@@ -676,9 +676,9 @@
               <Visibility>MouseYPos</Visibility>
               <PopupYPos>13</PopupYPos>
               <ZOrder>1</ZOrder>
-              <BorderColor>1</BorderColor>
+              <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>8</BackgroundColor>
+              <BackgroundColor>0</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>1</ID>
               <Name>gIconbar</Name>
@@ -694,12 +694,12 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2044</Image>
+                <Image>292</Image>
                 <Text />
                 <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>0</Left>
+                <Width>91</Width>
+                <Left>-1</Left>
                 <Top>0</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
@@ -715,12 +715,12 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2045</Image>
+                <Image>291</Image>
                 <Text />
                 <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>64</Left>
+                <Width>91</Width>
+                <Left>86</Left>
                 <Top>0</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
@@ -736,12 +736,12 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2046</Image>
+                <Image>293</Image>
                 <Text />
                 <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>128</Left>
+                <Width>91</Width>
+                <Left>173</Left>
                 <Top>0</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
@@ -757,12 +757,12 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2047</Image>
+                <Image>294</Image>
                 <Text />
                 <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>192</Left>
+                <Width>91</Width>
+                <Left>260</Left>
                 <Top>0</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
@@ -778,37 +778,16 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2048</Image>
+                <Image>295</Image>
                 <Text />
                 <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>256</Left>
+                <Width>91</Width>
+                <Left>347</Left>
                 <Top>0</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>btnIconInv</Name>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnIconCurInv_Click</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>16</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>2049</Image>
-                <Text>(INVSHR)</Text>
-                <Height>64</Height>
-                <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>320</Left>
-                <Top>0</Top>
-                <ZOrder>5</ZOrder>
-                <ID>5</ID>
-                <Name>btnIconCurInv</Name>
               </GUIButton>
               <GUIButton>
                 <OnClick>btnIconSave_Click</OnClick>
@@ -820,15 +799,15 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2050</Image>
+                <Image>296</Image>
                 <Text />
                 <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>384</Left>
+                <Width>91</Width>
+                <Left>434</Left>
                 <Top>0</Top>
-                <ZOrder>6</ZOrder>
-                <ID>6</ID>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
                 <Name>btnIconSave</Name>
               </GUIButton>
               <GUIButton>
@@ -841,15 +820,15 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2051</Image>
+                <Image>297</Image>
                 <Text />
                 <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>448</Left>
+                <Width>91</Width>
+                <Left>521</Left>
                 <Top>0</Top>
-                <ZOrder>7</ZOrder>
-                <ID>7</ID>
+                <ZOrder>6</ZOrder>
+                <ID>6</ID>
                 <Name>btnIconLoad</Name>
               </GUIButton>
               <GUIButton>
@@ -862,37 +841,16 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2052</Image>
+                <Image>298</Image>
                 <Text />
                 <Height>64</Height>
                 <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>512</Left>
+                <Width>34</Width>
+                <Left>608</Left>
                 <Top>0</Top>
-                <ZOrder>8</ZOrder>
-                <ID>8</ID>
+                <ZOrder>7</ZOrder>
+                <ID>7</ID>
                 <Name>btnIconExit</Name>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnIconAbout_Click</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>16</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>2053</Image>
-                <Text />
-                <Height>64</Height>
-                <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>578</Left>
-                <Top>0</Top>
-                <ZOrder>9</ZOrder>
-                <ID>9</ID>
-                <Name>btnIconAbout</Name>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -2096,10 +2054,10 @@ stop
     <Cursors>
       <MouseCursor>
         <ID>0</ID>
-        <HotspotX>7</HotspotX>
-        <HotspotY>13</HotspotY>
+        <HotspotX>3</HotspotX>
+        <HotspotY>4</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>114</Image>
+        <Image>299</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2108,10 +2066,10 @@ stop
       </MouseCursor>
       <MouseCursor>
         <ID>1</ID>
-        <HotspotX>0</HotspotX>
-        <HotspotY>1</HotspotY>
+        <HotspotX>3</HotspotX>
+        <HotspotY>4</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>124</Image>
+        <Image>301</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2120,10 +2078,10 @@ stop
       </MouseCursor>
       <MouseCursor>
         <ID>2</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>3</HotspotX>
+        <HotspotY>4</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2057</Image>
+        <Image>302</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2132,10 +2090,10 @@ stop
       </MouseCursor>
       <MouseCursor>
         <ID>3</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>3</HotspotX>
+        <HotspotY>4</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2058</Image>
+        <Image>303</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2625,6 +2583,76 @@ stop
               <Sprite Slot="124" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\tumati\Pictures\PixelArt\look.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="290" Width="62" Height="52" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Fernando\Desktop\Icones\Olho.fw.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="291" Width="91" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Fernando\Desktop\MenuV2\IconeLook.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="292" Width="91" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Fernando\Desktop\MenuV2\IconeWalk.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="293" Width="91" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Fernando\Desktop\MenuV2\IconeHand.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="294" Width="91" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Fernando\Desktop\MenuV2\IconeMessage.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="295" Width="91" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Fernando\Desktop\MenuV2\IconeBag.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="296" Width="91" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Fernando\Desktop\MenuV2\IconeSave.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="297" Width="91" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Fernando\Desktop\MenuV2\IconeLoad.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="298" Width="34" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Fernando\Desktop\MenuV2\IconeExit.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="300" Width="640" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Fernando\Desktop\MenuV2\Menu.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="299" Width="44" Height="44" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Fernando\Desktop\MenuV2\WalkCursor.fw.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="301" Width="44" Height="44" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Fernando\Desktop\MenuV2\LookCursor.fw.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="302" Width="44" Height="44" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Fernando\Desktop\MenuV2\SpeakCursor.fw.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="303" Width="44" Height="44" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Fernando\Desktop\MenuV2\TouchCursor.fw.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
