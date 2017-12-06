@@ -632,10 +632,37 @@
               </UnloadedRoom>
             </UnloadedRooms>
           </UnloadedRoomFolder>
+          <UnloadedRoomFolder Name="Sala">
+            <SubFolders />
+            <UnloadedRooms>
+              <UnloadedRoom>
+                <Number>3</Number>
+                <Description IsNull="True" />
+              </UnloadedRoom>
+            </UnloadedRooms>
+          </UnloadedRoomFolder>
+          <UnloadedRoomFolder Name="Corredor">
+            <SubFolders />
+            <UnloadedRooms>
+              <UnloadedRoom>
+                <Number>4</Number>
+                <Description IsNull="True" />
+              </UnloadedRoom>
+            </UnloadedRooms>
+          </UnloadedRoomFolder>
+          <UnloadedRoomFolder Name="Quarto">
+            <SubFolders />
+            <UnloadedRooms>
+              <UnloadedRoom>
+                <Number>1</Number>
+                <Description IsNull="True" />
+              </UnloadedRoom>
+            </UnloadedRooms>
+          </UnloadedRoomFolder>
         </SubFolders>
         <UnloadedRooms>
           <UnloadedRoom>
-            <Number>1</Number>
+            <Number>5</Number>
             <Description IsNull="True" />
           </UnloadedRoom>
         </UnloadedRooms>
@@ -1894,9 +1921,9 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>-1</StartingRoom>
-            <StartX>170</StartX>
-            <StartY>170</StartY>
+            <StartingRoom>3</StartingRoom>
+            <StartX>300</StartX>
+            <StartY>300</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>9</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -1934,7 +1961,7 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>-1</StartingRoom>
             <StartX>300</StartX>
             <StartY>260</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2008,7 +2035,7 @@
         </Characters>
       </CharacterFolder>
     </Characters>
-    <PlayerCharacter>2</PlayerCharacter>
+    <PlayerCharacter>1</PlayerCharacter>
     <Dialogs>
       <DialogFolder Name="Main">
         <SubFolders>
@@ -2078,10 +2105,10 @@ stop
       </MouseCursor>
       <MouseCursor>
         <ID>2</ID>
-        <HotspotX>3</HotspotX>
-        <HotspotY>4</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>302</Image>
+        <Image>303</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2090,10 +2117,10 @@ stop
       </MouseCursor>
       <MouseCursor>
         <ID>3</ID>
-        <HotspotX>3</HotspotX>
-        <HotspotY>4</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>303</Image>
+        <Image>302</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
