@@ -659,13 +659,17 @@
               </UnloadedRoom>
             </UnloadedRooms>
           </UnloadedRoomFolder>
+          <UnloadedRoomFolder Name="Banheiro">
+            <SubFolders />
+            <UnloadedRooms>
+              <UnloadedRoom>
+                <Number>5</Number>
+                <Description IsNull="True" />
+              </UnloadedRoom>
+            </UnloadedRooms>
+          </UnloadedRoomFolder>
         </SubFolders>
-        <UnloadedRooms>
-          <UnloadedRoom>
-            <Number>5</Number>
-            <Description IsNull="True" />
-          </UnloadedRoom>
-        </UnloadedRooms>
+        <UnloadedRooms />
       </UnloadedRoomFolder>
     </Rooms>
     <GUIs>
@@ -1925,10 +1929,10 @@
             <StartX>300</StartX>
             <StartY>300</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>9</MovementSpeed>
+            <MovementSpeed>4</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <AnimationDelay>6</AnimationDelay>
+            <AnimationDelay>3</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <Solid>True</Solid>
@@ -2569,6 +2573,26 @@ stop
           <Name>copoCaiu</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>R_CORREDOR</Name>
+          <Type>int</Type>
+          <DefaultValue>4</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>R_BANHEIRO</Name>
+          <Type>int</Type>
+          <DefaultValue>5</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>R_QUARTO</Name>
+          <Type>int</Type>
+          <DefaultValue>1</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>R_SALA</Name>
+          <Type>int</Type>
+          <DefaultValue>3</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
