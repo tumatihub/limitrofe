@@ -44,7 +44,7 @@
       <PlaySoundOnScore>0</PlaySoundOnScore>
       <CrossfadeMusic>No</CrossfadeMusic>
       <DialogOptionsGUI>7</DialogOptionsGUI>
-      <DialogOptionsGap>0</DialogOptionsGap>
+      <DialogOptionsGap>5</DialogOptionsGap>
       <DialogOptionsBullet>0</DialogOptionsBullet>
       <SkipSpeech>MouseOrKeyboardOrTimer</SkipSpeech>
       <SpeechStyle>Lucasarts</SpeechStyle>
@@ -1667,10 +1667,10 @@
               <Visibility>NormalButInitiallyOff</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
-              <BorderColor>2</BorderColor>
+              <BorderColor>4</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundImage>304</BackgroundImage>
               <ID>7</ID>
               <Name>gDialog</Name>
             </NormalGUI>
@@ -2245,26 +2245,26 @@ stop
       </Font>
       <Font>
         <ID>3</ID>
-        <PointSize>11</PointSize>
+        <PointSize>13</PointSize>
         <Name>fNormal</Name>
-        <OutlineFont>0</OutlineFont>
-        <OutlineStyle>None</OutlineStyle>
-        <SourceFilename>C:\Users\joaoguilherme.dias\Documents\assets\fonts\Pixellari.ttf</SourceFilename>
+        <OutlineFont>3</OutlineFont>
+        <OutlineStyle>Automatic</OutlineStyle>
+        <SourceFilename>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\fonts\mplus-1m-regular.ttf</SourceFilename>
       </Font>
       <Font>
         <ID>4</ID>
-        <PointSize>11</PointSize>
+        <PointSize>13</PointSize>
         <Name>fSpeech</Name>
-        <OutlineFont>2</OutlineFont>
+        <OutlineFont>3</OutlineFont>
         <OutlineStyle>Automatic</OutlineStyle>
-        <SourceFilename>C:\Users\joaoguilherme.dias\Documents\assets\fonts\Pixellari.ttf</SourceFilename>
+        <SourceFilename>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\fonts\mplus-1m-regular.ttf</SourceFilename>
       </Font>
       <Font>
         <ID>5</ID>
         <PointSize>0</PointSize>
         <Name>fSpeechOutline</Name>
-        <OutlineFont>0</OutlineFont>
-        <OutlineStyle>None</OutlineStyle>
+        <OutlineFont>3</OutlineFont>
+        <OutlineStyle>Automatic</OutlineStyle>
         <SourceFilename />
       </Font>
     </Fonts>
@@ -3034,6 +3034,16 @@ stop
               <Sprite Slot="287" Width="25" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
               <Sprite Slot="288" Width="25" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
               <Sprite Slot="289" Width="25" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="GUI">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="304" Width="640" Height="100" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\dialog_bg.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
         </SubFolders>
