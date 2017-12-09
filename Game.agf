@@ -54,11 +54,11 @@
       <NumberDialogOptions>None</NumberDialogOptions>
       <DialogOptionsBackwards>False</DialogOptionsBackwards>
       <SpeechPortraitSide>Left</SpeechPortraitSide>
-      <TextWindowGUI>0</TextWindowGUI>
+      <TextWindowGUI>8</TextWindowGUI>
       <AlwaysDisplayTextAsSpeech>False</AlwaysDisplayTextAsSpeech>
       <FontsForHiRes>True</FontsForHiRes>
       <AntiAliasFonts>False</AntiAliasFonts>
-      <ThoughtGUI>0</ThoughtGUI>
+      <ThoughtGUI>8</ThoughtGUI>
       <BackwardsText>False</BackwardsText>
       <MaximumScore>0</MaximumScore>
       <HasMODMusic>False</HasMODMusic>
@@ -681,6 +681,15 @@
               </UnloadedRoomFolder>
             </SubFolders>
             <UnloadedRooms />
+          </UnloadedRoomFolder>
+          <UnloadedRoomFolder Name="Intro">
+            <SubFolders />
+            <UnloadedRooms>
+              <UnloadedRoom>
+                <Number>7</Number>
+                <Description IsNull="True" />
+              </UnloadedRoom>
+            </UnloadedRooms>
           </UnloadedRoomFolder>
         </SubFolders>
         <UnloadedRooms />
@@ -1670,11 +1679,211 @@
               <BorderColor>4</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>304</BackgroundImage>
+              <BackgroundImage>329</BackgroundImage>
               <ID>7</ID>
               <Name>gDialog</Name>
             </NormalGUI>
             <Controls />
+          </GUIMain>
+          <GUIMain>
+            <TextWindowGUI>
+              <TextColor>12</TextColor>
+              <Padding>1</Padding>
+              <BackgroundColor>65535</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>8</ID>
+              <Name>gThink</Name>
+            </TextWindowGUI>
+            <Controls>
+              <GUITextWindowEdge>
+                <Image>313</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>0</Left>
+                <Top>0</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>318</Image>
+                <Height>20</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>0</Left>
+                <Top>70</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>315</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>90</Left>
+                <Top>0</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>320</Image>
+                <Height>20</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>90</Left>
+                <Top>70</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>316</Image>
+                <Height>20</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>0</Left>
+                <Top>40</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>317</Image>
+                <Height>20</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>90</Left>
+                <Top>40</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>314</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>40</Left>
+                <Top>0</Top>
+                <ZOrder>6</ZOrder>
+                <ID>6</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>319</Image>
+                <Height>20</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>40</Left>
+                <Top>70</Top>
+                <ZOrder>7</ZOrder>
+                <ID>7</ID>
+                <Name />
+              </GUITextWindowEdge>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <TextWindowGUI>
+              <TextColor>3</TextColor>
+              <Padding>3</Padding>
+              <BackgroundColor>44511</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>9</ID>
+              <Name>gTextDialog</Name>
+            </TextWindowGUI>
+            <Controls>
+              <GUITextWindowEdge>
+                <Image>321</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>0</Left>
+                <Top>0</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>326</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>0</Left>
+                <Top>90</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>323</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>90</Left>
+                <Top>0</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>328</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>90</Left>
+                <Top>90</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>324</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>0</Left>
+                <Top>40</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>325</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>90</Left>
+                <Top>40</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>322</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>40</Left>
+                <Top>0</Top>
+                <ZOrder>6</ZOrder>
+                <ID>6</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>327</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>40</Left>
+                <Top>90</Top>
+                <ZOrder>7</ZOrder>
+                <ID>7</ID>
+                <Name />
+              </GUITextWindowEdge>
+            </Controls>
           </GUIMain>
         </GUIs>
       </GUIFolder>
@@ -1903,10 +2112,10 @@
             <StartX>170</StartX>
             <StartY>150</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>9</MovementSpeed>
+            <MovementSpeed>4</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <AnimationDelay>6</AnimationDelay>
+            <AnimationDelay>3</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>1024</SpeechColor>
             <Solid>True</Solid>
@@ -2042,7 +2251,7 @@
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cMedico_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -2085,6 +2294,68 @@ stop
                   <DialogOption>
                     <ID>2</ID>
                     <Text xml:space="preserve">Porque você está tão irritada?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+            </Dialogs>
+          </DialogFolder>
+          <DialogFolder Name="Consultorio">
+            <SubFolders />
+            <Dialogs>
+              <Dialog>
+                <ID>1</ID>
+                <Name>dRemedio</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+medico: Pelos seus relatos, parece ser só depressão, vou te receitar a venlafaxina.
+return
+@1
+medico: Certo, aqui está a amostra, pode marcar  o retorno para daqui a 2 semanas.
+stop
+@2
+medico: Não é porque tem componentes parecidos que vai causar o mesmo efeito.
+return
+@3
+medico: Não é regra, as chances são bem baixas.
+return
+@4
+medico: E o último de linha, e o que temos de amostras grátis aqui.
+return
+@5
+medico: Sim está, mas tem mostrado bons resultados.
+return
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text>Aceitar</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Mas eu já usei um antidepressivo similar a esse no passado que me fez mal.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">Meus pais são bipolar tipo 2, e esse remédio tem mais efeitos colaterais para filhos de pessoas bipolares</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Text xml:space="preserve">Mas esse antidepressivo é muito caro.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>5</ID>
+                    <Text xml:space="preserve">Mas esse antidepressivo não está sendo testado ainda?</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -2936,6 +3207,11 @@ stop
                   <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\hTV.png</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="330" Width="12" Height="9" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\Banheiro\hRemedio.jpg</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="emoji">
@@ -3037,11 +3313,147 @@ stop
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="GUI">
-            <SubFolders />
+            <SubFolders>
+              <SpriteFolder Name="bubble">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="313" Width="10" Height="10" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_1.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="314" Width="10" Height="10" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_2.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="315" Width="10" Height="10" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_3.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="316" Width="10" Height="10" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_4.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="317" Width="10" Height="10" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_5.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="318" Width="10" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_06.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="319" Width="10" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_7.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="320" Width="10" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_8.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="dialog">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="321" Width="10" Height="10" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\dialog\dialog_board_sliced1.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="322" Width="10" Height="10" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\dialog\dialog_board_sliced2.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="323" Width="10" Height="10" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\dialog\dialog_board_sliced3.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="324" Width="10" Height="10" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\dialog\dialog_board_sliced4.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="325" Width="10" Height="10" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\dialog\dialog_board_sliced5.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="326" Width="10" Height="10" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\dialog\dialog_board_sliced6.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="327" Width="10" Height="10" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\dialog\dialog_board_sliced7.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="328" Width="10" Height="10" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\dialog\dialog_board_sliced8.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+            </SubFolders>
             <Sprites>
               <Sprite Slot="304" Width="640" Height="100" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\dialog_bg.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="305" Width="3" Height="3" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="306" Width="3" Height="3" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="307" Width="3" Height="3" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_3.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="308" Width="3" Height="3" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_4.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="309" Width="3" Height="3" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_5.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="310" Width="9" Height="9" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_6.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="311" Width="3" Height="9" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_7.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="312" Width="3" Height="9" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_8.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="329" Width="640" Height="100" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\dialog_board.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
