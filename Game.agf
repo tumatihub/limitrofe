@@ -43,11 +43,11 @@
       <LeftToRightPrecedence>True</LeftToRightPrecedence>
       <PlaySoundOnScore>0</PlaySoundOnScore>
       <CrossfadeMusic>No</CrossfadeMusic>
-      <DialogOptionsGUI>7</DialogOptionsGUI>
+      <DialogOptionsGUI>9</DialogOptionsGUI>
       <DialogOptionsGap>5</DialogOptionsGap>
       <DialogOptionsBullet>0</DialogOptionsBullet>
       <SkipSpeech>MouseOrKeyboardOrTimer</SkipSpeech>
-      <SpeechStyle>Lucasarts</SpeechStyle>
+      <SpeechStyle>SierraWithBackground</SpeechStyle>
       <UseGlobalSpeechAnimationDelay>False</UseGlobalSpeechAnimationDelay>
       <GlobalSpeechAnimationDelay>5</GlobalSpeechAnimationDelay>
       <LegacySpeechAnimationSpeed>False</LegacySpeechAnimationSpeed>
@@ -1688,7 +1688,7 @@
           <GUIMain>
             <TextWindowGUI>
               <TextColor>12</TextColor>
-              <Padding>1</Padding>
+              <Padding>0</Padding>
               <BackgroundColor>65535</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>8</ID>
@@ -1696,10 +1696,10 @@
             </TextWindowGUI>
             <Controls>
               <GUITextWindowEdge>
-                <Image>313</Image>
-                <Height>10</Height>
+                <Image>339</Image>
+                <Height>20</Height>
                 <Locked>False</Locked>
-                <Width>10</Width>
+                <Width>20</Width>
                 <Left>0</Left>
                 <Top>0</Top>
                 <ZOrder>0</ZOrder>
@@ -1707,18 +1707,18 @@
                 <Name />
               </GUITextWindowEdge>
               <GUITextWindowEdge>
-                <Image>318</Image>
-                <Height>20</Height>
-                <Locked>False</Locked>
+                <Image>344</Image>
+                <Height>10</Height>
+                <Locked>True</Locked>
                 <Width>10</Width>
                 <Left>0</Left>
-                <Top>70</Top>
+                <Top>77</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name />
               </GUITextWindowEdge>
               <GUITextWindowEdge>
-                <Image>315</Image>
+                <Image>341</Image>
                 <Height>10</Height>
                 <Locked>False</Locked>
                 <Width>10</Width>
@@ -1729,19 +1729,19 @@
                 <Name />
               </GUITextWindowEdge>
               <GUITextWindowEdge>
-                <Image>320</Image>
-                <Height>20</Height>
+                <Image>346</Image>
+                <Height>10</Height>
                 <Locked>False</Locked>
                 <Width>10</Width>
                 <Left>90</Left>
-                <Top>70</Top>
+                <Top>77</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name />
               </GUITextWindowEdge>
               <GUITextWindowEdge>
-                <Image>316</Image>
-                <Height>20</Height>
+                <Image>342</Image>
+                <Height>10</Height>
                 <Locked>False</Locked>
                 <Width>10</Width>
                 <Left>0</Left>
@@ -1751,10 +1751,10 @@
                 <Name />
               </GUITextWindowEdge>
               <GUITextWindowEdge>
-                <Image>317</Image>
+                <Image>343</Image>
                 <Height>20</Height>
                 <Locked>False</Locked>
-                <Width>10</Width>
+                <Width>20</Width>
                 <Left>90</Left>
                 <Top>40</Top>
                 <ZOrder>5</ZOrder>
@@ -1762,10 +1762,10 @@
                 <Name />
               </GUITextWindowEdge>
               <GUITextWindowEdge>
-                <Image>314</Image>
-                <Height>10</Height>
+                <Image>340</Image>
+                <Height>20</Height>
                 <Locked>False</Locked>
-                <Width>10</Width>
+                <Width>20</Width>
                 <Left>40</Left>
                 <Top>0</Top>
                 <ZOrder>6</ZOrder>
@@ -1773,12 +1773,12 @@
                 <Name />
               </GUITextWindowEdge>
               <GUITextWindowEdge>
-                <Image>319</Image>
-                <Height>20</Height>
+                <Image>345</Image>
+                <Height>10</Height>
                 <Locked>False</Locked>
                 <Width>10</Width>
                 <Left>40</Left>
-                <Top>70</Top>
+                <Top>77</Top>
                 <ZOrder>7</ZOrder>
                 <ID>7</ID>
                 <Name />
@@ -3355,6 +3355,86 @@ return
                   <Sprite Slot="320" Width="10" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\text_dialog\think\think_8.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="331" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\text_dialog\think\think_20x20_1.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="332" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\text_dialog\think\think_20x20_2.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="333" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\text_dialog\think\think_20x20_3.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="334" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\text_dialog\think\think_20x20_4.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="335" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\text_dialog\think\think_20x20_5.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="336" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\text_dialog\think\think_20x20_6.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="337" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\text_dialog\think\think_20x20_7.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="338" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\text_dialog\think\think_20x20_8.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="339" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\text_dialog\think\bubble_think_1.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="340" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\text_dialog\think\bubble_think_2.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="341" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\text_dialog\think\bubble_think_3.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="342" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\text_dialog\think\bubble_think_4.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="343" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\text_dialog\think\bubble_think_5.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="344" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\text_dialog\think\bubble_think_6.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="345" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\text_dialog\think\bubble_think_7.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="346" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\joaoguilherme.dias\Documents\assets\img\text_dialog\think\bubble_think_8.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
