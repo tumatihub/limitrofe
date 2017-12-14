@@ -11,7 +11,7 @@
       <GraphicsDriver>D3D9</GraphicsDriver>
       <CompressSprites>False</CompressSprites>
       <SaveScreenshots>False</SaveScreenshots>
-      <RoomTransition>FadeOutAndIn</RoomTransition>
+      <RoomTransition>Dissolve</RoomTransition>
       <MouseWheelEnabled>True</MouseWheelEnabled>
       <UseLowResCoordinatesInScript>False</UseLowResCoordinatesInScript>
       <TurnBeforeFacing>False</TurnBeforeFacing>
@@ -632,15 +632,6 @@
               </UnloadedRoom>
             </UnloadedRooms>
           </UnloadedRoomFolder>
-          <UnloadedRoomFolder Name="Sala">
-            <SubFolders />
-            <UnloadedRooms>
-              <UnloadedRoom>
-                <Number>3</Number>
-                <Description IsNull="True" />
-              </UnloadedRoom>
-            </UnloadedRooms>
-          </UnloadedRoomFolder>
           <UnloadedRoomFolder Name="Corredor">
             <SubFolders />
             <UnloadedRooms>
@@ -675,6 +666,42 @@
                 <UnloadedRooms>
                   <UnloadedRoom>
                     <Number>6</Number>
+                    <Description IsNull="True" />
+                  </UnloadedRoom>
+                </UnloadedRooms>
+              </UnloadedRoomFolder>
+              <UnloadedRoomFolder Name="Sala">
+                <SubFolders />
+                <UnloadedRooms>
+                  <UnloadedRoom>
+                    <Number>3</Number>
+                    <Description IsNull="True" />
+                  </UnloadedRoom>
+                </UnloadedRooms>
+              </UnloadedRoomFolder>
+              <UnloadedRoomFolder Name="Cozinha">
+                <SubFolders />
+                <UnloadedRooms>
+                  <UnloadedRoom>
+                    <Number>9</Number>
+                    <Description IsNull="True" />
+                  </UnloadedRoom>
+                </UnloadedRooms>
+              </UnloadedRoomFolder>
+              <UnloadedRoomFolder Name="Banheiro">
+                <SubFolders />
+                <UnloadedRooms>
+                  <UnloadedRoom>
+                    <Number>10</Number>
+                    <Description IsNull="True" />
+                  </UnloadedRoom>
+                </UnloadedRooms>
+              </UnloadedRoomFolder>
+              <UnloadedRoomFolder Name="QuartoDolores">
+                <SubFolders />
+                <UnloadedRooms>
+                  <UnloadedRoom>
+                    <Number>11</Number>
                     <Description IsNull="True" />
                   </UnloadedRoom>
                 </UnloadedRooms>
@@ -2157,7 +2184,7 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>8</StartingRoom>
+            <StartingRoom>7</StartingRoom>
             <StartX>700</StartX>
             <StartY>1070</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -3319,6 +3346,11 @@ return
               <Sprite Slot="287" Width="25" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
               <Sprite Slot="288" Width="25" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
               <Sprite Slot="289" Width="25" Height="48" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="347" Width="26" Height="31" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Google Drive\Infnet\AGS (1)\Telas\ComputadorSprite.fw.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="GUI">
