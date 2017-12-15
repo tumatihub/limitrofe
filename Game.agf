@@ -2915,6 +2915,16 @@ return
           <Type>int</Type>
           <DefaultValue>3</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>K_TOROOM</Name>
+          <Type>int</Type>
+          <DefaultValue>48</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>K_HOTSPOT</Name>
+          <Type>int</Type>
+          <DefaultValue>32</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -3246,6 +3256,46 @@ return
               <Sprite Slot="330" Width="12" Height="9" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
                 <Source>
                   <FileName>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\img\Banheiro\hRemedio.jpg</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="353" Width="28" Height="56" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Google Drive\Infnet\AGS (1)\Telas\Mapa\objetos\armario_pai.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="354" Width="40" Height="37" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Google Drive\Infnet\AGS (1)\Telas\Mapa\objetos\armario_remedios.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="355" Width="23" Height="18" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Google Drive\Infnet\AGS (1)\Telas\Mapa\objetos\bombom.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="356" Width="20" Height="23" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Google Drive\Infnet\AGS (1)\Telas\Mapa\objetos\crucifixo.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="357" Width="23" Height="17" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Google Drive\Infnet\AGS (1)\Telas\Mapa\objetos\diario.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="358" Width="38" Height="35" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Google Drive\Infnet\AGS (1)\Telas\Mapa\objetos\gavetas.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="359" Width="26" Height="31" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Google Drive\Infnet\AGS (1)\Telas\Mapa\objetos\notebook.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="360" Width="15" Height="59" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Google Drive\Infnet\AGS (1)\Telas\Mapa\objetos\TV.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
