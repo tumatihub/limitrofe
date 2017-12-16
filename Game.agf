@@ -2498,10 +2498,10 @@ option-off 3
 return
 @4
   Display("Dolores foi diagnosticada com transtorno de personalidade Limítrofe no dia 15 de setembro de 2017.");
-  player.Think("Transtorno de personalidade limítrofe?");
-  player.Think("Essa não é aquela doença onde um dos sintomas são pensamentos suicidas e comportamento impulsivo?");
-  player.Think("Dolores… eu sinto muito, queria poder ter percebido isso antes..");
-  player.Think("Você foi uma ótima amiga para mim, obrigada…");
+  player.Think("Transtorno de personalidade limítrofe?\n\n\n");
+  player.Think("Essa não é aquela doença onde um dos sintomas são pensamentos suicidas e comportamento impulsivo?\n\n");
+  player.Think("Dolores... eu sinto muito, queria poder ter percebido isso antes..\n\n");
+  player.Think("Você foi uma ótima amiga para mim, obrigada...\n\n");
   player.ChangeRoom(R_FIM);
 stop
 ]]></Script>
@@ -3041,7 +3041,7 @@ stop
         <GlobalVariable>
           <Name>C_DEBUG</Name>
           <Type>bool</Type>
-          <DefaultValue>true</DefaultValue>
+          <DefaultValue>false</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
           <Name>R_BANHEIRO</Name>
