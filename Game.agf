@@ -11,7 +11,7 @@
       <GraphicsDriver>D3D9</GraphicsDriver>
       <CompressSprites>False</CompressSprites>
       <SaveScreenshots>False</SaveScreenshots>
-      <RoomTransition>Dissolve</RoomTransition>
+      <RoomTransition>BlackBoxOut</RoomTransition>
       <MouseWheelEnabled>True</MouseWheelEnabled>
       <UseLowResCoordinatesInScript>False</UseLowResCoordinatesInScript>
       <TurnBeforeFacing>False</TurnBeforeFacing>
@@ -54,7 +54,7 @@
       <NumberDialogOptions>None</NumberDialogOptions>
       <DialogOptionsBackwards>False</DialogOptionsBackwards>
       <SpeechPortraitSide>Left</SpeechPortraitSide>
-      <TextWindowGUI>8</TextWindowGUI>
+      <TextWindowGUI>9</TextWindowGUI>
       <AlwaysDisplayTextAsSpeech>False</AlwaysDisplayTextAsSpeech>
       <FontsForHiRes>True</FontsForHiRes>
       <AntiAliasFonts>False</AntiAliasFonts>
@@ -632,33 +632,6 @@
               </UnloadedRoom>
             </UnloadedRooms>
           </UnloadedRoomFolder>
-          <UnloadedRoomFolder Name="Corredor">
-            <SubFolders />
-            <UnloadedRooms>
-              <UnloadedRoom>
-                <Number>4</Number>
-                <Description IsNull="True" />
-              </UnloadedRoom>
-            </UnloadedRooms>
-          </UnloadedRoomFolder>
-          <UnloadedRoomFolder Name="Quarto">
-            <SubFolders />
-            <UnloadedRooms>
-              <UnloadedRoom>
-                <Number>1</Number>
-                <Description IsNull="True" />
-              </UnloadedRoom>
-            </UnloadedRooms>
-          </UnloadedRoomFolder>
-          <UnloadedRoomFolder Name="Banheiro">
-            <SubFolders />
-            <UnloadedRooms>
-              <UnloadedRoom>
-                <Number>5</Number>
-                <Description IsNull="True" />
-              </UnloadedRoom>
-            </UnloadedRooms>
-          </UnloadedRoomFolder>
           <UnloadedRoomFolder Name="FlashBacks">
             <SubFolders>
               <UnloadedRoomFolder Name="Consultorio">
@@ -723,6 +696,15 @@
             <UnloadedRooms>
               <UnloadedRoom>
                 <Number>8</Number>
+                <Description IsNull="True" />
+              </UnloadedRoom>
+            </UnloadedRooms>
+          </UnloadedRoomFolder>
+          <UnloadedRoomFolder Name="Fim">
+            <SubFolders />
+            <UnloadedRooms>
+              <UnloadedRoom>
+                <Number>1</Number>
                 <Description IsNull="True" />
               </UnloadedRoom>
             </UnloadedRooms>
@@ -1921,6 +1903,41 @@
               </GUITextWindowEdge>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>480</Height>
+              <Width>640</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>10</ID>
+              <Name>gFIM</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>6</Font>
+                <Text xml:space="preserve">New Label</Text>
+                <Height>453</Height>
+                <Locked>False</Locked>
+                <Width>615</Width>
+                <Left>11</Left>
+                <Top>12</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>textoFIM</Name>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -2265,8 +2282,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>6</StartingRoom>
-            <StartX>323</StartX>
-            <StartY>242</StartY>
+            <StartX>431</StartX>
+            <StartY>258</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>7</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -2342,7 +2359,7 @@ stop
             <Dialogs>
               <Dialog>
                 <ID>1</ID>
-                <Name>dRemedio</Name>
+                <Name>dConsulta</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
@@ -2394,6 +2411,124 @@ return
                     <Text xml:space="preserve">Mas esse antidepressivo não está sendo testado ainda?</Text>
                     <Show>True</Show>
                     <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+            </Dialogs>
+          </DialogFolder>
+          <DialogFolder Name="Banheiro">
+            <SubFolders />
+            <Dialogs>
+              <Dialog>
+                <ID>2</ID>
+                <Name>dRemedios</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+  Display("Antidepressivo indicado para alguns tipos de depressão do espectro monopolar. O famoso PROZAC por ser o primeiro dos seletivos");
+return
+@2
+  Display("Ansiolítico da classe dos benzodiazepínicos (faixa preta). Atualmente esta medicação tem prescrição restrita devido ao fato de afetar a memória, causar dependência e levar a depressão. Também pode desenvolver tolerância no uso sistemático");
+return
+@3
+  DONE_REMEDIOS = true;
+  FLASHBACK = F_REMEDIOS;
+  cDolores.ChangeRoom(R_CONSULTORIO, 221, 297, eDirectionRight);
+  cDolores.SetAsPlayer();
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text>Fluoxetina</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text>Rivotril</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text>Venlafaxina</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+            </Dialogs>
+          </DialogFolder>
+          <DialogFolder Name="QuartoDolores">
+            <SubFolders />
+            <Dialogs>
+              <Dialog>
+                <ID>3</ID>
+                <Name>dDiario</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+  String texto;
+  texto = "Hoje eu finalmente consegui levantar da cama e ir para a faculdade.\n";
+  texto = texto.Append("Minhas faltas já estão estourando… não sei o que fazer para reverter isso.");
+  Display(texto);
+option-on 4
+option-off 1
+return
+@2
+  String texto;
+  texto = "Tive que pedir a coordenadora para conversar com meus professores, para que eles não me reprovem por falta..\n";
+  texto = texto.Append("E eu ainda sou obrigada a limpar e cuidar da casa toda mesmo estando doente..");
+  Display(texto);
+option-on 4
+option-off 2
+return
+@3
+  String texto;
+  texto = "Parece que esse inferno não para, eu não aguento mais ter que sentir tudo isso.\n";
+  texto = texto.Append("Eu só queria não sentir mais nada..dar um fim a isso tudo.");
+  Display(texto);
+option-on 4
+option-off 3
+return
+@4
+  Display("Dolores foi diagnosticada com transtorno de personalidade Limítrofe no dia 15 de setembro de 2017.");
+  player.Think("Transtorno de personalidade limítrofe?");
+  player.Think("Essa não é aquela doença onde um dos sintomas são pensamentos suicidas e comportamento impulsivo?");
+  player.Think("Dolores… eu sinto muito, queria poder ter percebido isso antes..");
+  player.Think("Você foi uma ótima amiga para mim, obrigada…");
+  player.ChangeRoom(R_FIM);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">Dia 15 de outubro de 2017</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Dia 16 de outubro de 2017</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">Dia 17 de outubro de 2017</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Text xml:space="preserve">Laudo psiquiátrico</Text>
+                    <Show>False</Show>
+                    <Say>False</Say>
                   </DialogOption>
                 </DialogOptions>
               </Dialog>
@@ -2573,6 +2708,14 @@ return
         <OutlineFont>3</OutlineFont>
         <OutlineStyle>Automatic</OutlineStyle>
         <SourceFilename />
+      </Font>
+      <Font>
+        <ID>6</ID>
+        <PointSize>18</PointSize>
+        <Name>fCreditos</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>None</OutlineStyle>
+        <SourceFilename>C:\Users\tumati\Documents\GameDev\Projects\Limítrofe\assets\fonts\mplus-1m-regular.ttf</SourceFilename>
       </Font>
     </Fonts>
     <Palette>
@@ -2896,19 +3039,19 @@ return
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
-          <Name>R_CORREDOR</Name>
-          <Type>int</Type>
-          <DefaultValue>4</DefaultValue>
+          <Name>C_DEBUG</Name>
+          <Type>bool</Type>
+          <DefaultValue>true</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
           <Name>R_BANHEIRO</Name>
           <Type>int</Type>
-          <DefaultValue>5</DefaultValue>
+          <DefaultValue>10</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
-          <Name>R_QUARTO</Name>
+          <Name>R_QUARTODOLORES</Name>
           <Type>int</Type>
-          <DefaultValue>1</DefaultValue>
+          <DefaultValue>11</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
           <Name>R_SALA</Name>
@@ -2924,6 +3067,136 @@ return
           <Name>K_HOTSPOT</Name>
           <Type>int</Type>
           <DefaultValue>32</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>DONE_NOTEBOOK</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>DONE_CRUZ</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>DONE_BOMBOM</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>DONE_REMEDIOS</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>DONE_TV</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>DONE_GAVETAS</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>FLASHBACK</Name>
+          <Type>int</Type>
+          <DefaultValue>-1</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>F_NOTEBOOK</Name>
+          <Type>int</Type>
+          <DefaultValue>1</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>F_CRUZ</Name>
+          <Type>int</Type>
+          <DefaultValue>2</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>F_BOMBOM</Name>
+          <Type>int</Type>
+          <DefaultValue>3</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>F_REMEDIOS</Name>
+          <Type>int</Type>
+          <DefaultValue>4</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>F_TV</Name>
+          <Type>int</Type>
+          <DefaultValue>5</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>F_GAVETAS</Name>
+          <Type>int</Type>
+          <DefaultValue>6</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>R_COZINHA</Name>
+          <Type>int</Type>
+          <DefaultValue>9</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>R_MAPA</Name>
+          <Type>int</Type>
+          <DefaultValue>8</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>EMOJI_SAD</Name>
+          <Type>int</Type>
+          <DefaultValue>223</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>SAIU_F_CRUZ</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>EMOJI_NHAM</Name>
+          <Type>int</Type>
+          <DefaultValue>240</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>R_CONSULTORIO</Name>
+          <Type>int</Type>
+          <DefaultValue>6</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>EMOJI_TIRED</Name>
+          <Type>int</Type>
+          <DefaultValue>120</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>EMOJI_BH_TEAR</Name>
+          <Type>int</Type>
+          <DefaultValue>228</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>SAIU_F_GAVETAS</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>SAIU_F_TV</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>SAIU_D_DIARIO</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>R_FIM</Name>
+          <Type>int</Type>
+          <DefaultValue>1</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>SAIU_F_REMEDIOS</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -3296,6 +3569,21 @@ return
               <Sprite Slot="360" Width="15" Height="59" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\tumati\Google Drive\Infnet\AGS (1)\Telas\Mapa\objetos\TV.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="348" Width="26" Height="31" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Google Drive\Infnet\AGS (1)\Telas\Flashbacks\Sala\objetos\notebook-fb.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="349" Width="20" Height="23" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Google Drive\Infnet\AGS (1)\Telas\Flashbacks\Sala\objetos\crucifixo-fb.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="350" Width="23" Height="18" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\tumati\Google Drive\Infnet\AGS (1)\Telas\Flashbacks\Cozinha\objetos\bombom-fb.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -4095,7 +4383,7 @@ return
                     <Frames>
                       <ViewFrame>
                         <ID>0</ID>
-                        <Image>73</Image>
+                        <Image>84</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>

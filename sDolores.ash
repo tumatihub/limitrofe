@@ -1,3 +1,3 @@
 // new module header
 
-import function sDoloresQuartoPassado_Talk();
+import function sDolores_F_GAVETAS_Talk();
