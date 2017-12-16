@@ -709,6 +709,15 @@
               </UnloadedRoom>
             </UnloadedRooms>
           </UnloadedRoomFolder>
+          <UnloadedRoomFolder Name="Creditos">
+            <SubFolders />
+            <UnloadedRooms>
+              <UnloadedRoom>
+                <Number>4</Number>
+                <Description IsNull="True" />
+              </UnloadedRoom>
+            </UnloadedRooms>
+          </UnloadedRoomFolder>
         </SubFolders>
         <UnloadedRooms />
       </UnloadedRoomFolder>
@@ -3197,6 +3206,11 @@ stop
           <Name>SAIU_F_REMEDIOS</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>R_CREDITOS</Name>
+          <Type>int</Type>
+          <DefaultValue>4</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
