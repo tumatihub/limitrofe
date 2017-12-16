@@ -74,7 +74,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>Limítrofe</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>0</AudioIndexer>
+      <AudioIndexer>1</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
     </Settings>
     <LipSync>
@@ -5335,7 +5335,20 @@ See KeyboardMovement.txt for details.
         <SubFolders>
           <AudioClipFolder Name="Music">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <ScriptName>aSaying_Goodbye</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\tumati\Google Drive\Infnet\AGS (1)\Sons\Saying Goodbye.mp3</SourceFileName>
+                <Index>1</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-11-26 19:14:22Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
